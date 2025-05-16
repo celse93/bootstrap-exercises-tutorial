@@ -12,8 +12,18 @@
 		<title>08 Bootstrap Forms</title>
 	</head>
 	<body>
-		<div class="col-3 mx-auto my-5">
+		<div class="col-3 mx-auto my-5 px-5 py-5 bg-secondary rounded">
 			<!-- Add your code below this line -->
+			<form>
+				<div class="mb-3">
+					<h2>Please login</h2>
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address" /><br />
+					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" /><br />
+					<input type="checkbox" class="form-check-input" id="exampleCheck1" />
+					<label class="form-check-label" for="exampleCheck1">Remember me</label>
+				</div>
+				<button type="button" class="btn btn-primary col-12">Login</button>
+			</form>
 		</div>
 	</body>
 </html>
